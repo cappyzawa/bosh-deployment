@@ -14,3 +14,6 @@ bosh create-env ../bosh-deployment/bosh.yml \
 -v internal_gw=192.168.50.1 \
 -v internal_cidr=192.168.50.0/24 \
 -v outbound_network_name=NatNetwork
+
+bosh -e vbox upload-stemcell bosh-stemcell-*-warden-boshlite-ubuntu-trusty-go_agent.tgz
+./set_cloud_config.sh

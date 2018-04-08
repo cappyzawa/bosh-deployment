@@ -1,9 +1,10 @@
 # Change log
 ## 1.0.1 - 2018/04/08
 ### Feature
-cloud configをvirtual boxベースにした
-### breaking
-wardenベースのcloud configをやめた
+* vboxのsleep問題への対応
+  * 端末がsleep/shutdownされるとdirectorが死ぬ
+  * 再度create-envするしか方法がないらしい
+* cloud configにstatic ipを付与
 ## 1.0.0 - 2018/04/06
 ### Feature
 * vbox環境作成
