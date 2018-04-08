@@ -1,4 +1,9 @@
 # Change log
+## 1.0.1 - 2018/04/08
+### Feature
+cloud configをvirtual boxベースにした
+### breaking
+wardenベースのcloud configをやめた
 ## 1.0.0 - 2018/04/06
 ### Feature
 * vbox環境作成
