@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+rm ./state.json
 bosh create-env ../bosh-deployment/bosh.yml \
 --state ./state.json \
 -o ../bosh-deployment/virtualbox/cpi.yml \

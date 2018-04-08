@@ -1,56 +1,56 @@
 {
-    "director_id": "a9d6b3f5-9e91-4277-4ff7-af60ad63f300",
-    "installation_id": "6f451196-e680-428f-5dd0-857197629372",
-    "current_vm_cid": "vm-5f7472a1-8fbf-4273-7f78-6129ab269d7c",
-    "current_stemcell_id": "3e3645eb-e6dd-4cae-694a-54394f0b9690",
-    "current_disk_id": "b0311fa3-b8fe-4c20-4ed1-d84d4a44f604",
+    "director_id": "f785d8cc-04eb-462b-4656-b477076ae347",
+    "installation_id": "ae79e528-fb94-47f5-5562-d2a253040543",
+    "current_vm_cid": "vm-c25f949e-985c-4677-43f4-3ac30726421d",
+    "current_stemcell_id": "7aad6288-b2c6-4661-4166-1de97afa0dd9",
+    "current_disk_id": "904b1623-c245-4fea-7125-18420cd1ad58",
     "current_release_ids": [
-        "63a0e545-1799-4afe-5c77-3683ef5fdbb8",
-        "e5bc2657-69c7-4066-6bb0-796b67ee4344",
-        "1db08c79-7a28-4a76-5009-47b4b41b063b",
-        "bd63a915-2bb5-447f-65a0-bed152738ff4",
-        "d353fd9b-847f-4a79-68f0-27e55c918445"
+        "f70bab80-c9c9-4ce6-4e7b-71b3dd890a4d",
+        "5782837a-9213-4531-5da7-3acf8671fffb",
+        "e9584273-5861-4f54-47a5-76a4bcedf5ad",
+        "ab0cefaf-bd67-4646-45c6-0772e4e57f31",
+        "a14c84dd-32d8-4596-59a7-a67db6a2495e"
     ],
     "current_manifest_sha": "106b464738b716fac862acfc9139c2f7c83030b24f5ccd23261ed1cbddbba9d5a07e2cb613ab04008d26234a071b7882e8b8648e72600314374a575b0b3b9294",
     "disks": [
         {
-            "id": "b0311fa3-b8fe-4c20-4ed1-d84d4a44f604",
-            "cid": "disk-e1645137-0a7c-4182-59bc-9ac7b753b154",
+            "id": "904b1623-c245-4fea-7125-18420cd1ad58",
+            "cid": "disk-41b7d49b-467e-4db8-73b6-1ded6d38fa0c",
             "size": 65536,
             "cloud_properties": {}
         }
     ],
     "stemcells": [
         {
-            "id": "3e3645eb-e6dd-4cae-694a-54394f0b9690",
+            "id": "7aad6288-b2c6-4661-4166-1de97afa0dd9",
             "name": "bosh-vsphere-esxi-ubuntu-trusty-go_agent",
             "version": "3541.10",
-            "cid": "sc-cfc54a09-adb1-4f79-5b09-5e9614c66ef0"
+            "cid": "sc-fcb86db6-a624-478b-694c-d4903fc440f3"
         }
     ],
     "releases": [
         {
-            "id": "63a0e545-1799-4afe-5c77-3683ef5fdbb8",
+            "id": "f70bab80-c9c9-4ce6-4e7b-71b3dd890a4d",
             "name": "bosh",
             "version": "265.2.0"
         },
         {
-            "id": "e5bc2657-69c7-4066-6bb0-796b67ee4344",
+            "id": "5782837a-9213-4531-5da7-3acf8671fffb",
             "name": "bosh-virtualbox-cpi",
             "version": "0.0.13"
         },
         {
-            "id": "1db08c79-7a28-4a76-5009-47b4b41b063b",
+            "id": "e9584273-5861-4f54-47a5-76a4bcedf5ad",
             "name": "bosh-warden-cpi",
             "version": "40"
         },
         {
-            "id": "bd63a915-2bb5-447f-65a0-bed152738ff4",
+            "id": "ab0cefaf-bd67-4646-45c6-0772e4e57f31",
             "name": "os-conf",
             "version": "18"
         },
         {
-            "id": "d353fd9b-847f-4a79-68f0-27e55c918445",
+            "id": "a14c84dd-32d8-4596-59a7-a67db6a2495e",
             "name": "garden-runc",
             "version": "1.9.4"
         }
